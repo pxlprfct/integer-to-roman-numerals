@@ -54,13 +54,12 @@ const integerToRomanNumeral = (integer) => {
   return result;
 };
 
-// Note: i saw this a few years ago - quite a cool way to solve the problem
-//       changes it into a text manipulation/symbol problem instead of a numerical one
+// Note: i saw this a few years ago - it's quite a cool way to solve the problem
+//       it changes it into a text manipulation/symbol problem instead of a numerical one
 //       i can't take credit for it - as it's not mine, but I thought I'd share
+//       https://youtu.be/nrVIlhtoE3Y?t=38m40s
+//       Declarative Thinking, Declarative Practice - Kevlin Henney
 //
-//      https://youtu.be/nrVIlhtoE3Y?t=38m40s
-//      Declarative Thinking, Declarative Practice - Kevlin Henney
-
 // const integerToRomanNumeral = integer =>
 //   'I'.repeat(integer)
 //     .replace(/IIIII/g, 'V')
